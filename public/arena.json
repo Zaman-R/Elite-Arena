@@ -1,0 +1,63 @@
+[
+    {
+      "id": 1,
+      "title": "Support Gaming Scholarships",
+      "image": "https://i.ibb.co/48RbZGt/Rectangle-4288.png",
+      "category": "Education",
+      "description": "Help talented gamers pursue their dreams by providing scholarships for education and training in the gaming industry.",
+      "price": 50.00
+    },
+    {
+      "id": 2,
+      "title": "Promote Esports Development",
+      "image": "https://i.ibb.co/48RbZGt/Rectangle-4288.png",
+      "category": "Esports",
+      "description": "Contribute to the growth of the esports community by supporting initiatives that foster talent and competition.",
+      "price": 30.00
+    },
+    {
+      "id": 3,
+      "title": "Gaming Charity Events",
+      "image": "https://i.ibb.co/48RbZGt/Rectangle-4288.png",
+      "category": "Charity",
+      "category_bg_color": "#d4eac1",
+      "card_bg_color": "#ebf5e2",
+      "text_and_button_bg_color": "#79c23f",
+      "description": "Participate in charity gaming events organized by Elite Arena to support various causes and make a positive impact.",
+      "price": 20.00
+    },
+    {
+      "id": 4,
+      "title": "Health and Wellness in Gaming",
+      "image": "https://i.ibb.co/48RbZGt/Rectangle-4288.png",
+      "category": "Health",
+      "category_bg_color": "#adc7ff",
+      "card_bg_color": "#d9e5ff",
+      "text_and_button_bg_color": "#0052ff",
+      "description": "Promote the well-being of gamers by investing in programs and resources focused on physical and mental health.",
+      "price": 40.00
+    },
+    {
+      "id": 5,
+      "title": "Esports Equipment Drive",
+      "image": "https://i.ibb.co/ZTtmbt9/0x0.webp",
+      "category": "Esports",
+      "category_bg_color": "#ffc3c5",
+      "card_bg_color": "#ffe3e4",
+      "text_and_button_bg_color": "#ff444a",
+      "description": "Donate gaming equipment and accessories to help aspiring esports athletes access the necessary gear.",
+      "price": 25.00
+    },
+    {
+      "id": 6,
+      "title": "Community Gaming Spaces",
+      "image": "https://i.ibb.co/48RbZGt/Rectangle-4288.png",
+      "category": "Community",
+      "category_bg_color": "#d4eac1",
+      "card_bg_color": "#ebf5e2",
+      "text_and_button_bg_color": "#79c23f",
+      "description": "Create safe and welcoming gaming spaces for communities to come together, play, and socialize.",
+      "price": 15.00
+    }
+  ]
+  
