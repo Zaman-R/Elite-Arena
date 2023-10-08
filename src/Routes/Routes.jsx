@@ -3,7 +3,8 @@ import { createBrowserRouter } from "react-router-dom";
 import Home from "../Pages/Home/Home";
 import Login from "../Pages/Login/Login";
 import Register from "../Pages/Register/Register";
-import ServiceInfo from "../Pages/Home/Components/Details/ServiceInfo";
+import PrivateRoute from "./PrivateRoute";
+import Info from "../Pages/Home/Components/Details/Info";
 
 
 const routes = createBrowserRouter([
@@ -26,8 +27,7 @@ const routes = createBrowserRouter([
             },
             {
                 path: '/serviceinfo/:id',
-                element : <ServiceInfo></ServiceInfo>,
-                loader: () => fetch('arena.json')
+                element : <PrivateRoute><Info></Info></PrivateRoute>,
             },
         ]
     }
