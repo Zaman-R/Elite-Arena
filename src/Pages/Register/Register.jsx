@@ -2,26 +2,51 @@ import { Link } from "react-router-dom";
 import Navbar from "../Home/Components/Navbar";
 import { useContext } from "react";
 import { AuthContext } from "../../Providers/AuthProvider";
-
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Register = () => {
-  const {createUser} = useContext(AuthContext);
+  const { createUser } = useContext(AuthContext);
 
   const handleRegister = (e) => {
-
     e.preventDefault();
     const form = new FormData(e.currentTarget);
-    const name = form.get('name');
-    const photo = form.get('photo');
-    const email = form.get('email');
-    const password = form.get('password');
+    const name = form.get("name");
+    const photo = form.get("photo");
+    const email = form.get("email");
+    const password = form.get("password");
 
-    createUser(email,password)
-      .then(res => {
-        console.log(res.user);
-      })
-      .catch(err =>{ console.log(err)})
+    let passwordError = "";
+
+    // Password validation
+    if (password.length < 6) {
+      passwordError = "Password must be at least 6 characters long";
+    } else if (!/[A-Z]/.test(password)) {
+      passwordError = "Password must contain at least one capital letter";
+    } else if (!/[!@#$%^&*()_+{}[\]:;<>,.?~\\-]/.test(password)) {
+      passwordError = "Password must contain at least one special character";
+    }
+
+    if (passwordError) {
+      // Display password error as a toast notification
+      toast.error(passwordError);
+    } else {
+      // Create the user if password validation passes
+      createUser(email, password)
+        .then((res) => {
+          // Registration successful
+          toast.success("Registration successful. Redirecting to login...");
+          setTimeout(() => {
+            window.location.href = "/login"; // Redirect to login page
+          }, 1000);
+        })
+        .catch((err) => {
+          // Registration unsuccessful, display the error message
+          toast.error(err.message);
+        });
+    }
   };
+
 
 
   return (
@@ -94,6 +119,7 @@ const Register = () => {
           </Link>{" "}
         </p>
       </div>
+      <ToastContainer position="top-right" autoClose={3000} hideProgressBar />
     </div>
   );
 };

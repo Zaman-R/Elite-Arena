@@ -1,63 +1,56 @@
 [
-    {
-      "id": 1,
-      "title": "Support Gaming Scholarships",
-      "image": "https://i.ibb.co/48RbZGt/Rectangle-4288.png",
-      "category": "Education",
-      "description": "Help talented gamers pursue their dreams by providing scholarships for education and training in the gaming industry.",
-      "price": 50.00
-    },
-    {
-      "id": 2,
-      "title": "Promote Esports Development",
-      "image": "https://i.ibb.co/48RbZGt/Rectangle-4288.png",
-      "category": "Esports",
-      "description": "Contribute to the growth of the esports community by supporting initiatives that foster talent and competition.",
-      "price": 30.00
-    },
-    {
-      "id": 3,
-      "title": "Gaming Charity Events",
-      "image": "https://i.ibb.co/48RbZGt/Rectangle-4288.png",
-      "category": "Charity",
-      "category_bg_color": "#d4eac1",
-      "card_bg_color": "#ebf5e2",
-      "text_and_button_bg_color": "#79c23f",
-      "description": "Participate in charity gaming events organized by Elite Arena to support various causes and make a positive impact.",
-      "price": 20.00
-    },
-    {
-      "id": 4,
-      "title": "Health and Wellness in Gaming",
-      "image": "https://i.ibb.co/48RbZGt/Rectangle-4288.png",
-      "category": "Health",
-      "category_bg_color": "#adc7ff",
-      "card_bg_color": "#d9e5ff",
-      "text_and_button_bg_color": "#0052ff",
-      "description": "Promote the well-being of gamers by investing in programs and resources focused on physical and mental health.",
-      "price": 40.00
-    },
-    {
-      "id": 5,
-      "title": "Esports Equipment Drive",
-      "image": "https://i.ibb.co/ZTtmbt9/0x0.webp",
-      "category": "Esports",
-      "category_bg_color": "#ffc3c5",
-      "card_bg_color": "#ffe3e4",
-      "text_and_button_bg_color": "#ff444a",
-      "description": "Donate gaming equipment and accessories to help aspiring esports athletes access the necessary gear.",
-      "price": 25.00
-    },
-    {
-      "id": 6,
-      "title": "Community Gaming Spaces",
-      "image": "https://i.ibb.co/48RbZGt/Rectangle-4288.png",
-      "category": "Community",
-      "category_bg_color": "#d4eac1",
-      "card_bg_color": "#ebf5e2",
-      "text_and_button_bg_color": "#79c23f",
-      "description": "Create safe and welcoming gaming spaces for communities to come together, play, and socialize.",
-      "price": 15.00
-    }
-  ]
-  
+  {
+    "id": 1,
+    "title": "Support Gaming Scholarships",
+    "image": "https://i.ibb.co/sHWsB0m/1692954942319.jpg",
+    "category": "Education",
+    "description": "Help talented gamers pursue their dreams by providing scholarships for education and training in the gaming industry.",
+    "long_description": "Help talented gamers pursue their dreams by providing scholarships for education and training in the gaming industry. These scholarships will enable passionate individuals to access quality education and professional training in fields such as game design, development, and esports management. By supporting this initiative, you are contributing to the growth and sustainability of the gaming industry, fostering innovation, and empowering the next generation of game changers. Join us in making gaming education accessible to all.",
+    "price": 50.00
+  },
+  {
+    "id": 2,
+    "title": "Promote Esports Development",
+    "image": "https://i.ibb.co/BBBphDB/offshore-android-development-1200-x-628.png",
+    "category": "Esports",
+    "description": "Contribute to the growth of the esports community by supporting initiatives that foster talent and competition.",
+    "long_description": "Contribute to the growth of the esports community by supporting initiatives that foster talent and competition. Esports is not just a form of entertainment; it's a dynamic industry with tremendous potential. Your contribution will go towards nurturing esports talent, organizing tournaments, providing coaching and mentorship, and enhancing the overall infrastructure of the competitive gaming scene. By promoting esports development, you are helping to create a thriving ecosystem that benefits players, fans, and the industry as a whole. Be a part of the esports revolution and help us elevate the world of competitive gaming.",
+    "price": 30.00
+  },
+  {
+    "id": 3,
+    "title": "Gaming Charity Events",
+    "image": "https://i.ibb.co/nDLRF3Y/1695645653428.jpg",
+    "category": "Charity",
+    "description": "Participate in charity gaming events organized by Elite Arena to support various causes and make a positive impact.",
+    "long_description": "Participate in charity gaming events organized by Elite Arena to support various causes and make a positive impact. Gaming is a powerful platform for social change, and with your participation, we can harness its potential for good. Our charity gaming events raise funds for a wide range of causes, from children's education to disaster relief. By joining these events, you are not only having fun but also making a meaningful difference in the lives of those in need. Together, we can turn our love for gaming into a force for positive change.",
+    "price": 20.00
+  },
+  {
+    "id": 4,
+    "title": "Health and Wellness in Gaming",
+    "image": "https://i.ibb.co/HFSGPwh/1695307417807.jpg",
+    "category": "Health",
+    "description": "Promote the well-being of gamers by investing in programs and resources focused on physical and mental health.",
+    "long_description": "Promote the well-being of gamers by investing in programs and resources focused on physical and mental health. Gaming is a beloved pastime, but it's essential to prioritize the health and wellness of gamers. Your support will enable us to create initiatives that address issues like screen time balance, ergonomic gaming setups, mental health awareness, and physical fitness for gamers. Together, we can ensure that gamers lead healthy and balanced lives while pursuing their passion. Join us in fostering a culture of wellness within the gaming community.",
+    "price": 40.00
+  },
+  {
+    "id": 5,
+    "title": "Esports Equipment Drive",
+    "image": "https://i.ibb.co/Qj9ZGTX/839e52c433250b0f2820280c0fee1c6c6e7d69c7-1280x720.webp",
+    "category": "Esports",
+    "description": "Donate gaming equipment and accessories to help aspiring esports athletes access the necessary gear.",
+    "long_description": "Donate gaming equipment and accessories to help aspiring esports athletes access the necessary gear. Esports requires top-notch equipment, and not all aspiring players have the means to acquire it. Your donation will provide gaming PCs, monitors, controllers, and other essential accessories to talented individuals looking to excel in competitive gaming. By supporting the Esports Equipment Drive, you are leveling the playing field and giving talented players the tools they need to succeed. Help us empower the next generation of esports champions.",
+    "price": 25.00
+  },
+  {
+    "id": 6,
+    "title": "Community Gaming Spaces",
+    "image": "https://i.ibb.co/2ZG3hZ3/1695287551377.jpg",
+    "category": "Community",
+    "description": "Create safe and welcoming gaming spaces for communities to come together, play, and socialize.",
+    "long_description": "Create safe and welcoming gaming spaces for communities to come together, play, and socialize. Gaming is not just a solitary activity; it's a way for communities to connect and bond. Your support will help us establish dedicated community gaming spaces where people of all backgrounds can gather, share experiences, and enjoy their favorite games together. These spaces will promote inclusivity, diversity, and positive social interactions, strengthening the bonds within our gaming communities. Join us in building a vibrant and supportive gaming community for all to enjoy.",
+    "price": 15.00
+  }
+]

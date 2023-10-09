@@ -16,7 +16,7 @@ const Home = () => {
             <Navbar></Navbar>
             <Banner></Banner>
             <News></News>
-            <div className=" bg-[#EEDEDE]">
+            <div className=" bg-[#A1A1A1]">
             <div className=' w-full mx-auto'><Services x={x}></Services></div>
             </div>         
             <Reviews></Reviews>
