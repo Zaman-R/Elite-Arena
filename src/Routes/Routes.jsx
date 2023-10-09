@@ -26,8 +26,9 @@ const routes = createBrowserRouter([
                 element : <Register></Register>
             },
             {
-                path: '/serviceinfo/:id',
+                path: '/info/:id',
                 element : <PrivateRoute><Info></Info></PrivateRoute>,
+                loader: () => fetch('/arena.json')
             },
         ]
     }

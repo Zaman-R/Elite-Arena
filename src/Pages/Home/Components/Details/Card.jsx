@@ -15,9 +15,13 @@ const Card = ({val}) => {
                     <img src={image} className="rounded-t-lg max-fit"/>
                 </>
                 <div className="p-5">
+                <div className="flex justify-between">
                 <h2 className="mb-2 text-xl font-semibold tracking-tight text-gray-900 dark:text-white">{title}</h2>
+                <h2 className="text-white">${price}</h2>
+                </div>
+                
                 <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">{description}.</p>
-                    <Link to={`/serviceInfo/${id}?amount=${price}`} ><button className="btn">See More</button></Link>
+                    <Link to={`/info/${id}?amount=${price}`} ><button className="btn">See More</button></Link>
                 </div>
 
             </div>

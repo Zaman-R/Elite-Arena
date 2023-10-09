@@ -29,7 +29,7 @@ const Reviews = () => {
               <div className="p-6">
                 <h5 className="mb-4 text-lg font-semibold">Support 24/7</h5>
                 <p>
-                  At the heart of our project is a commitment to providing you
+                  At the heart of our arena is a commitment to providing you
                   with unwavering support, day or night. Our dedicated team of
                   experts is available 24/7 to assist you with any questions,
                   concerns.
@@ -61,7 +61,7 @@ const Reviews = () => {
               <div className="p-6">
                 <h5 className="mb-4 text-lg font-semibold">Safe and solid</h5>
                 <p>
-                  Our project is built on a foundation of robust security and
+                  Our arena is built on a foundation of robust security and
                   reliability. We prioritize your data and gaming experience by
                   implementing cutting-edge security measures.
                 </p>

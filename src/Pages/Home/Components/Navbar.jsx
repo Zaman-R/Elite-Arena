@@ -8,7 +8,7 @@ const Navbar = () => {
   const handleSignOut = () => {
     logOut().then().catch();
   };
-
+  
   const navLinks = (
     <>
       <li>
@@ -26,7 +26,9 @@ const Navbar = () => {
   return (
     <div className="navbar bg-base-100">
       <div className="flex-1">
-        <a className="btn btn-ghost normal-case text-2xl font-bold font-poppins ">Arena</a>
+        <a className="btn btn-ghost normal-case text-2xl font-bold font-poppins ">
+          Arena
+        </a>
       </div>
       <div className="navbar-start">
         <div className="dropdown">
@@ -58,16 +60,23 @@ const Navbar = () => {
         <ul className="menu menu-horizontal px-1">{navLinks}</ul>
       </div>
       <div className="navbar-end">
-        <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
-          <div className="w-10 rounded-full">
-            <img />
-          </div>
-        </label>
         {user ? (
-          <button onClick={handleSignOut} className="btn">
-            Sign Out
-          </button>
+          // If the user is authenticated, show their name, profile photo, and a logout button
+          <div className="flex items-center">
+            {user.photo && (
+              <img
+                src={user.photo} // Use the user's profile photo URL
+                alt={user.name} // Use the user's name as alt text
+                className="w-10 h-10 rounded-full"
+              />
+            )}
+            <span className="ml-2 text-gray-800">{user.name}</span>
+            <button onClick={handleSignOut} className="btn ml-2">
+              Sign Out
+            </button>
+          </div>
         ) : (
+          // If the user is not authenticated, show the login button
           <Link to="/login">
             <button className="btn">Login</button>
           </Link>
