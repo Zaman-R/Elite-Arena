@@ -18,8 +18,8 @@ const Home = () => {
             <News></News>
             <div className=" bg-[#A1A1A1]">
             <div className=' w-full mx-auto'><Services x={x}></Services></div>
-            </div>         
-            <Reviews></Reviews>
+            </div>
+            <Reviews></Reviews>        
             <Footer></Footer>
         </div>
     );
