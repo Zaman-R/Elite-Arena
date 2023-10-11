@@ -2,7 +2,7 @@ import { useLoaderData } from 'react-router-dom';
 import Navbar from '../Home/Components/Navbar';
 import Banner from './Components/Banner';
 import Footer from './Components/Footer';
-import Reviews from './Components/Reviews';
+import Reviews from './Components/Features';
 import News from './Components/News';
 import Services from './Components/Services';
 
